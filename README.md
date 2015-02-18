@@ -40,3 +40,5 @@ Tracker.autorun(function() {
 ```
 
 After that you'll see those reactive variables changing when you resize. Oneplace is just a tiny package for you to build useful plugins around it.
+
+Checkout all plugins in `plugins.js` for example you can easily add infinite scrolling to your views with `scroll` plugin.
