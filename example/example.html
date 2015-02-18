@@ -1,0 +1,30 @@
+<head>
+  <title>example</title>
+</head>
+
+<body>
+  <div id="info">
+    <p>scrollTop: <strong>{{ One.get 'scroll' 'top' }}</strong></p>
+    <p>width: <strong>{{ One.get 'screen' 'width' }}</strong></p>
+    <p>height: <strong>{{ One.get 'screen' 'height' }}</strong></p>
+  </div>
+
+
+  {{> lorem }}
+  {{> lorem }}
+  {{> lorem }}
+  {{> lorem }}
+  {{> lorem }}
+  {{> lorem }}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="lorem">
+  <p class="lorem">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam error officiis illum sint aliquam doloribus possimus vitae. Nostrum, saepe amet beatae accusantium, fugit molestias provident totam quo quaerat. Qui quae sint id deleniti, optio, nisi aliquam modi minus repudiandae eveniet blanditiis adipisci labore quam doloribus consectetur! Ipsa nulla architecto libero magni quaerat maiores aliquam odio consequatur reprehenderit, quasi repudiandae tenetur ea ex, doloribus earum aliquid necessitatibus quibusdam fuga iusto ipsum dolorem perspiciatis nemo? Placeat porro, ullam modi, magnam iusto reiciendis recusandae deleniti illo molestiae earum nam illum. Modi iste itaque ipsam qui mollitia magnam perferendis, quos ullam ad omnis.
+  </p>
+</template>

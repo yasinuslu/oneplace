@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+
+#info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(40, 42, 44, 0.66);
+  color: white;
+}
+
+p.lorem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  padding-top: 100px;
+}
