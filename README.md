@@ -1,6 +1,7 @@
 # Oneplace - Keep everyting in one place
 
 Demo: http://oneplace.meteor.com
+Example: https://github.com/yasinuslu/oneplace-clouds
 
 Install:
 ```
